@@ -1,0 +1,68 @@
+:root{
+    --clr-price: hsl(158, 36%, 37%);
+    --clr-bg: hsl(30, 38%, 92%);
+
+    --clr-product-name: hsl(212, 21%, 14%);
+    --clr-product-p: hsl(228, 12%, 48%);
+    --clr-info-bg: hsl(0, 0%, 100%);
+
+    --fs-p: 14px;
+
+    --ff-p: 'Montserrat', sans-serif;
+    --ff-product-name: 'Fraunces', serif; 
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background-color: var(--clr-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    max-height: 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.product-img,
+.product-label{
+    height: 100%;
+    width: 50%;
+}
+
+.product-img img{
+    max-width: 100%;
+}
+
+.product-label{
+    background-color: var(--clr-info-bg);
+    padding: 10px;
+    font-family: var(--ff-p);
+}
+
+.product-type,
+.product-name,
+.product-description,
+.product-price,
+.add-to-cart{
+    height: 100%;
+}
