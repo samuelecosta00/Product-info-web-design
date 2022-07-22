@@ -50,7 +50,7 @@ body{
 }
 
 .product-img{
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url(./images/image-product-desktop.jpg);
     background-size: cover;
 }
 
@@ -148,7 +148,7 @@ body{
     }
 
     .product-img{
-        background-image: url(/images/image-product-mobile.jpg);
+        background-image: url(./images/image-product-mobile.jpg);
         background-position: center;
     }
 
