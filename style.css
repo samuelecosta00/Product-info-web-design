@@ -34,8 +34,8 @@ body{
 }
 
 .main-container{
-    height: 500px;
-    width: 700px;
+    height: 460px;
+    width: 660px;
     display: flex;
     justify-content: center;
     align-items: center;
